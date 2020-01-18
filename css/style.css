@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.eot');
+    src: url('../fonts/Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Arvo-Bold.woff2') format('woff2'),
+    url('../fonts/Arvo-Bold.woff') format('woff'),
+    url('../fonts/Arvo-Bold.ttf') format('truetype'),
+    url('../fonts/Arvo-Bold.svg#Arvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border-top: #af2024 solid 40px;
+    background-image: url("../images/bacground.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.Picture {
+    max-width: 960px;
+    margin: 19px auto 22px;
+}
+.logotip {
+    max-width: 352px;
+}
+img[src="images/Logo.png"] {
+    width: 100%;
+    display: block ;
+}
+
+.icons {
+    display: block;
+    right: 0;
+    position: fixed;
+    top:262px;
+
+}
+.down {
+    top:312px;
+}
+section {
+    padding-bottom: 129px;
+    margin: auto;
+    background: #ffffff;
+    max-width: 710px;
+    color: #98161b;
+    position: relative;
+    bottom: -69px;
+
+}
+h1 {
+    font-family: 'Arvo', sans-serif ;
+    padding: 27px 18px 28px;
+    background: #98161b;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 63px;
+}
+.block {
+    background: #e7e7e7;
+    margin:0 70px 30px 74px;
+    padding: 144px 257px 148px 263px;
+}
+h2, ul{
+    font-family: 'Arvo', sans-serif ;
+    font-size: 13px;
+    max-width: 562px;
+    margin: 0 auto 17px;
+}
+span {
+    color: #7d7d7d;
+}
+ul li{
+    display: inline;
+}
+li {
+    list-style-type: none;
+}
+li:before {
+    content: "▖";
+}
+footer {
+    background: #000000;
+    height: 487px;
+}
+.line {
+    padding: 16.5px 0 16.5px;
+    background-color: #3f0002;
+    height: -63px;
+}
+p {
+    font-size: 12px;
+    font-family: 'Arvo', sans-serif;
+    position: relative;
+    top:-90px;
+   max-width: 545px;
+    margin: auto;
+}
